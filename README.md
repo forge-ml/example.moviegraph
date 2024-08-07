@@ -1,25 +1,24 @@
-// Vite Frontend App with No Auth
+# Movie Character Relationship Graph
 
-## General
-- If you selected yes to the database question: docker is running, it just isn't shown in the terminal
-- If a file is in the gitignore but isn't greyed out, try the following:
-    1. delete and then retype a letter of the filename in the gitignore, save the gitignore file.
-    2. No luck? Reload the developer window.
-    3. No luck? The .env is probably in the staging area of git. Unstage it.
-    4. Still no luck? Look it up or ask for help. (sorry lol)
-- Note that a git repo has been initialized in the root directory of your project!
+This application takes a movie as input and generates a graph representing the relationships between characters in the story.
 
-## Frontend
-#### Notes
-- IF USING SHADCN: to add a new component run `npx shadcn-ui@latest add <component_name>`
+## Features
 
-#### To run frontend:
-1. In terminal: npm run dev
+- **Character Nodes**:
 
+  - Green nodes represent good characters.
+  - Red nodes represent bad characters.
 
-## Resources
-- Vite: https://vitejs.dev/guide/
-- Tailwind: https://tailwindcss.com/docs
-- DaisyUI: https://daisyui.com/docs
-- Shadcn UI: https://ui.shadcn.com/docs
+- **Relationships**:
+  - Paths between nodes illustrate the relationships between characters.
 
+## Usage
+
+1. Input the movie title.
+2. The app will process the movie and display the character relationship graph.
+
+## Installation
+
+1. Clone the repository with `git clone`
+2. Install the required dependencies with `npm install`
+3. Run the application with `npm run dev`
