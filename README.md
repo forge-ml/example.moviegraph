@@ -22,3 +22,5 @@ This application takes a movie as input and generates a graph representing the r
 1. Clone the repository with `git clone`
 2. Install the required dependencies with `npm install`
 3. Run the application with `npm run dev`
+
+Link to live site: https://forge-charactergraph.netlify.app/
